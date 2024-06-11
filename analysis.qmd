@@ -1,0 +1,20 @@
+---
+title: "Counties"
+author: "David Kane"
+format: html
+execute: 
+  echo: false
+---
+
+```{r}
+#| message: false
+#| label: setup
+
+library(tidyverse)
+```
+
+
+```{r}
+x <- read_csv("data/nyc_tracts.csv", show_col_types = FALSE)
+```
+
